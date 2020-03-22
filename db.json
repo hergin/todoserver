@@ -1,0 +1,12 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Create a new repository"
+    },
+    {
+      "id": 2,
+      "title": "Add db.json file in the root"
+    }
+  ]
+}
