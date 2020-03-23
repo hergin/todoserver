@@ -5,6 +5,12 @@ const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
 server.use(middlewares);
+
+// Add this before server.use(router)
+server.use(jsonServer.rewriter({
+    '/:owner/todos': '/todos?owner=:owner'
+  }));
+
 server.use(router);
 
 server.listen(port);

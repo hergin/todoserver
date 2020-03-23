@@ -2,11 +2,13 @@
   "todos": [
     {
       "id": 1,
-      "title": "Create a new repository"
+      "title": "Explain the project",
+      "owner": "hergin"
     },
     {
       "id": 2,
-      "title": "Add db.json file in the root"
+      "title": "Create teams",
+      "owner": "hergin"
     }
   ]
 }
